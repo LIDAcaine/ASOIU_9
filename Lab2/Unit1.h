@@ -48,6 +48,7 @@ __published:	// IDE-managed Components
 	TLabel *Label1;
 	TLabel *Label2;
 	TLabel *Label3;
+	TButton *Button7;
 	void __fastcall ButtonAddClick(TObject *Sender);
 	void __fastcall ButtonDeleteClick(TObject *Sender);
 	void __fastcall ButtonExitClick(TObject *Sender);
@@ -58,6 +59,7 @@ __published:	// IDE-managed Components
 	void __fastcall Button6Click(TObject *Sender);
 	void __fastcall Button5Click(TObject *Sender);
 	void __fastcall Button4Click(TObject *Sender);
+	void __fastcall Button7Click(TObject *Sender);
 
 private:	// User declarations
 public:		// User declarations

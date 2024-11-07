@@ -14,7 +14,7 @@
   object Label1: TLabel
     Left = 8
     Top = 36
-    Width = 137
+    Width = 123
     Height = 23
     Caption = #1048#1090#1086#1075#1086#1074#1099#1081' '#1095#1077#1082':'
     Font.Charset = DEFAULT_CHARSET
@@ -27,7 +27,7 @@
   object Label2: TLabel
     Left = 560
     Top = 36
-    Width = 257
+    Width = 252
     Height = 23
     Caption = #1051#1100#1075#1086#1090#1085#1099#1077' '#1082#1072#1090#1077#1075#1086#1088#1080#1080' '#1075#1088#1072#1078#1076#1072#1085':'
     Font.Charset = DEFAULT_CHARSET
@@ -69,7 +69,7 @@
     Width = 968
     Height = 30
     ParentColor = False
-    ExplicitTop = 40
+    ExplicitWidth = 966
   end
   object ButtonAdd: TButton
     Left = 568
@@ -146,7 +146,7 @@
   end
   object Button1: TButton
     Left = 343
-    Top = 181
+    Top = 127
     Width = 113
     Height = 25
     Caption = #1056#1077#1076#1072#1082#1090#1080#1088#1086#1074#1072#1090#1100
@@ -220,7 +220,7 @@
   end
   object Button3: TButton
     Left = 343
-    Top = 124
+    Top = 96
     Width = 113
     Height = 25
     Caption = #1059#1076#1072#1083#1080#1090#1100
@@ -277,6 +277,21 @@
     ParentFont = False
     TabOrder = 13
     OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 343
+    Top = 181
+    Width = 113
+    Height = 25
+    Caption = #1054#1090#1095#1077#1090
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 14
+    OnClick = Button7Click
   end
   object ADOConnection1: TADOConnection
     Connected = True

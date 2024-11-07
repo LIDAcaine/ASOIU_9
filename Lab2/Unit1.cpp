@@ -10,6 +10,7 @@
 #include "Unit5.h"
 #include "Unit6.h"
 #include "Unit7.h"
+#include "Unit8.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -149,12 +150,19 @@ if (ADOTable2->RecordCount > 0 && ADOTable2->Active)
 
         }
         else
-        {
+		{
             ShowMessage("Нет записей для редактирования.");
         }
 		ADOTable2->Requery();
 		ADOTable1->Refresh();
 		ADOTable1->Requery();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button7Click(TObject *Sender)
+{
+	  Form8->Show();
+	  Form8->frxReport1->ShowReport();
 }
 //---------------------------------------------------------------------------
 
